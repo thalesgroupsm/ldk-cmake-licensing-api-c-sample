@@ -1,13 +1,13 @@
 This is the sample to demostrate how to use CMake to generate LDK licensign api sample project files on Windows or make file on Linux.
 
-#Step 1
+## Step 1
 You need to use master wizard with physical master key to download required LDK licensing api libaries, and copy them into lib folder.
 
-#Setep 2
+## Setep 2
 Update CMakeLists.txt, and rename all the libraries name to the exact libary file names.
 For example, rename libhasp_windows_x64_demo.lib to libhasp_windows_x64_xxxx.lib which you download it via master wizard.
 
-#Setp 3
+## Setp 3
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. -DBUILD_SHARED_LIBS=ON
 make
