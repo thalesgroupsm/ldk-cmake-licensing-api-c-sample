@@ -1,4 +1,4 @@
-This is the sample to demostrate how to use CMake to generate LDK licensign api sample project files on Windows or make file on Linux.
+This is the CMake sample to demostrate how to generate LDK licensing api sample project files on Windows or make file on Linux.
 
 ## Step 1
 You need to use master wizard with physical master key to download required LDK licensing api libaries, and copy them into lib folder.
